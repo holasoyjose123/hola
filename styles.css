@@ -1,0 +1,93 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body background color and font family */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Center align all headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Style for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Table cell styling */
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Style for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Add some spacing around paragraphs */
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Style for EXIT link button */
+a[href="bc and golden.html"] {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="bc and golden.html"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    img {
+        width: 90%;
+    }
+}
